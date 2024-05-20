@@ -6,6 +6,8 @@
 ### General Description
 This Java Swing app primarily allows users to take a test which determines how many Covid-19 symptoms a person has. Based on that information, a user may be advised to take precautions and also linked to external webpages. To make this easier, the app allows users to enter their location and be informed of nearby clinics; this is accompanied by a friendly map to guide users. Furthermore, users may also view national Covid-19 statistics from the government in a line graph. The app tries to make the GUI simple and intuitive with clear buttons to switch from a page to another.
 
+> This project was part of an foundation course at university. Our team worked to expand on the project, adding multiple additional features. 
+
 ### Project Images
 
 #### Login Page
@@ -45,7 +47,7 @@ This Java Swing app primarily allows users to take a test which determines how m
 - [Email: suhaib.zuberi2@gmail.com](mailto:suhaib.zuberi2@gmail.com)
 
 ### Features At A Glance
-> Only features marked with **(Required)** were required by the course syllabus. Others were added due to personal motivation.
+> Only features marked with **(Required)** were required by the course syllabus. Others were added additionally added to expand the project.
 1. Covid-19 Symptoms Test **(Required)**
 2. Gives users advice based on test results **(Required)**
 3. Registering and Signing-in users *(multiple accounts supported)* **(Additional)**
