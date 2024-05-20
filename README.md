@@ -6,6 +6,29 @@
 ### General Description
 This Java Swing app primarily allows users to take a test which determines how many Covid-19 symptoms a person has. Based on that information, a user may be advised to take precautions and also linked to external webpages. To make this easier, the app allows users to enter their location and be informed of nearby clinics; this is accompanied by a friendly map to guide users. Furthermore, users may also view national Covid-19 statistics from the government in a line graph. The app tries to make the GUI simple and intuitive with clear buttons to switch from a page to another.
 
+### Project Images
+
+#### Login Page
+![Login Page Image](https://github.com/Flamingsides/YourSejahtera-Covid-19-Companion/assets/84507406/22e25353-3649-4a44-8237-07eb007e278e)
+
+#### Registration Page
+![Registration Page Image](https://github.com/Flamingsides/YourSejahtera-Covid-19-Companion/assets/84507406/105cfcb0-328f-4184-aaf2-dfd7c352180b)
+
+#### User's Dashboard (Shows Covid Trends)
+![User's Dashboard Image](https://github.com/Flamingsides/YourSejahtera-Covid-19-Companion/assets/84507406/7c9e6c79-72d2-4c51-8573-1e237b10ac39)
+
+#### Maps with Nearest Clinics
+![Maps with Nearest Clinics Image](https://github.com/Flamingsides/YourSejahtera-Covid-19-Companion/assets/84507406/4d473803-b6da-493a-862b-b768bed7d728)
+
+#### Covid-19 Symptoms Test
+![Covid-19 Symptoms Test Form Image](https://github.com/Flamingsides/YourSejahtera-Covid-19-Companion/assets/84507406/7597afc6-5952-42b7-ba24-d237c2d06eb3)
+
+#### Covid-19 Symptoms Test Results
+![Covid-19 Symptoms Test Results](https://github.com/Flamingsides/YourSejahtera-Covid-19-Companion/assets/84507406/73b93f0b-0640-48e3-a083-287dd7d5dc24)
+
+#### History Tab with Past Test Results for User
+![History Tab with Past Test Results for User Image](https://github.com/Flamingsides/YourSejahtera-Covid-19-Companion/assets/84507406/25f280aa-1ce5-4c38-abd0-c6089066812b)
+
 ### Contributers
 ##### Jei, Hao Wen (Howard)
 - [Email: arsenalhw@gmail.com](mailto:arsenalhw@gmail.com)
@@ -22,6 +45,7 @@ This Java Swing app primarily allows users to take a test which determines how m
 - [Email: suhaib.zuberi2@gmail.com](mailto:suhaib.zuberi2@gmail.com)
 
 ### Features At A Glance
+> Only features marked with **(Required)** were required by the course syllabus. Others were added due to personal motivation.
 1. Covid-19 Symptoms Test **(Required)**
 2. Gives users advice based on test results **(Required)**
 3. Registering and Signing-in users *(multiple accounts supported)* **(Additional)**
@@ -45,7 +69,7 @@ This Java Swing app primarily allows users to take a test which determines how m
 ### Referenced Libraries
 See Also: [How To Add JAR files](#how-to-add-jar-files)
 
-The following are external JAR libraries that we have used. They have been included in the zip file and need to be added in Eclipse ([See link above](#referenced-libraries)).
+The following are external JAR libraries that we have used. They have been included under the [Dependencies](https://github.com/Flamingsides/YourSejahtera-Covid-19-Companion/tree/main/Dependencies) and need to be added in Eclipse ([See link above](#referenced-libraries)).
 
 ##### jcommon-1.0.23.jar
 - _(Used to deal with JSON data from APIs)_
@@ -65,7 +89,7 @@ The following are external JAR libraries that we have used. They have been inclu
 ##### slf4j-simple-1.6.1.jar
 - _(Required by slf4j-api...)_
 
-##### How To Add JAR files
+##### How To Add JAR files *(using Eclipse)*
 1. Right click on your project
 2. Select `Build Path`
 3. Click on `Configure Build Path`
